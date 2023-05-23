@@ -1,0 +1,16 @@
+plugins {
+    id 'java-library'
+    id 'org.jetbrains.kotlin.jvm'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
+dependencies {
+    api 'org.jetbrains.kotlin:kotlin-stdlib:1.8.20'
+    api 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4'
+
+    api 'com.michael-bull.kotlin-result:kotlin-result:1.1.17'
+}
